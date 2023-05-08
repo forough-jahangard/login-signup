@@ -1,0 +1,197 @@
+@font-face {
+  font-family: pt-serif;
+  src: url(../components/font/pt-serif/PTF55F.ttf);
+}
+
+.sign-up-button {
+  padding: 12px 80px;
+  background-color: #53af8a;
+  font-family: pt-serif;
+  border: 0;
+  color: aliceblue;
+  width: 50%;
+  text-decoration: none;
+}
+
+.login-button {
+  padding: 12px 80px;
+  background-color: #475258;
+  font-family: pt-serif;
+  border: 0;
+  color: aliceblue;
+  width: 50%;
+  text-decoration: none;
+}
+
+.sign-login {
+  display: flex;
+}
+
+
+
+.name-input {
+  position: relative;
+  color: #6c767f;
+}
+
+.name-input {
+  position: relative;
+}
+
+.name-input::after {
+  content: "*";
+  position: absolute;
+  right: 118px;
+  top: 2px;
+  color: #53af8a;
+}
+
+.password-input {
+  position: relative;
+}
+
+.email-address {
+  position: relative;
+}
+
+.email-address::after {
+  content: "*";
+  position: absolute;
+  left: 110px;
+  top: 2px;
+  color: #53af8a;
+}
+
+.email-address input {
+  width: 100%;
+}
+
+.password-input input {
+  width: 100%;
+}
+
+.password-confirm {
+  color: #53af8a;
+  float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.last-name {
+  position: relative;
+}
+
+.last-name::after {
+  content: "*";
+  position: absolute;
+  top: 2px;
+  right: 118px;
+  color: #53af8a;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input::after {
+  position: absolute;
+  content: "*";
+  left: 115px;
+  color: #53af8a;
+}
+
+.Start-button {
+  border: 0;
+  padding: 12px 165px;
+  background-color: #53af8a;
+  color: aliceblue;
+  width: 100%;
+}
+
+.form-container {
+  background-color: #28323b;
+  padding-right: 65px;
+  padding-left: 65px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input[type="text"],
+textarea {
+  background-color: #28323b;
+  border: 1px solid #6c767f;
+  padding-right: 10px;
+  color: #a5b4c0;
+}
+
+.main-container {
+  padding-right: 400px;
+  padding-left: 400px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form-container h3 {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.second-sign-up-button {
+  padding: 12px 80px;
+  background-color: #475258;
+  font-family: pt-serif;
+  border: 0;
+  color: aliceblue;
+  width: 50%;
+  text-decoration: none;
+}
+
+
+
+.second-login-button {
+  padding: 12px 80px;
+  background-color:#53af8a ;
+  font-family: pt-serif;
+  border: 0;
+  color: aliceblue;
+  width: 50%;
+  text-decoration: none;
+}
+
+.log-in {
+  border: 0;
+  padding: 12px 165px;
+  background-color: #53af8a;
+  color: aliceblue;
+  width: 100%;
+}
+
+
+.second-password-input {
+  position: relative;
+}
+
+.second-password-input input {
+  width: 100%;
+}
+
+
+.second-password-input::after {
+  position: absolute;
+  content: "*";
+  left: 70px;
+  top: 1px;
+  color: #53af8a;
+}
+
